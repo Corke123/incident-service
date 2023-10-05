@@ -1,0 +1,246 @@
+{
+  "authorities": [
+    {
+      "authority": "ROLE_offline_access"
+    },
+    {
+      "authority": "ROLE_default-roles-incident-management-system"
+    },
+    {
+      "authority": "ROLE_uma_authorization"
+    },
+    {
+      "authority": "ROLE_USER"
+    }
+  ],
+  "details": null,
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxcy1aUjk1WjJWUEVoNk40VzZ4ZzBGLU9NQS1pRGZaTjgzb01EOGk1QTljIn0.eyJleHAiOjE2OTQxMjgwNzYsImlhdCI6MTY5NDEyNzc3NiwiYXV0aF90aW1lIjoxNjk0MTI3Nzc2LCJqdGkiOiIxNzBmNjM3NC1mODk3LTRmYjQtYjc0NS02YjNhYzYyYWQwNDgiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODEvcmVhbG1zL2luY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjM0MGM1NzEyLWVhNmItNGU4Ni1hNTUyLTBiMmFmODFlOWI0MiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imltcy1hcHAiLCJub25jZSI6Ijc2MDY4Mzg0LTdiZGEtNDRjZC04ZjU2LTgxNWViZTE2MjI5NiIsInNlc3Npb25fc3RhdGUiOiIzOTFiZTM4ZC1iMWQ3LTQxNmQtOTgxOC00ZmMyN2UwODkzNGQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJkZWZhdWx0LXJvbGVzLWluY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjM5MWJlMzhkLWIxZDctNDE2ZC05ODE4LTRmYzI3ZTA4OTM0ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya28gTWFya292aWMiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtYXJrbzEyMyIsImdpdmVuX25hbWUiOiJNYXJrbyIsImZhbWlseV9uYW1lIjoiTWFya292aWMiLCJlbWFpbCI6Im1hcmtvQG1haWwuY29tIn0.ex_5lY_abRPH0G4O_PZF66FMOShQJPzjFc2_lxrEqdslEfW8u45ghbpcrj0CAnLV0UYJfnJSbmBE2crREBJtaqGhrBeSTX0k8AJZ5dqUE1IjsP7tjzO7poHwNIn4n24J612lV36Ckzy-XE7SbRAwwYL4Vvm_E4G8ZWkQJ4bDEMaU0OfFw6nG7x0wTt84yPDJgA01Vs_AQiAk_E3r2aAF_io9hz6-5Fo52qzixjrifnjYs9d-63CQLyJGN1KrlzaPYuqeC_f_4gCaFGA52w0WrlVVY88uLFrcHCApk6iDiUFzX2Oo3ouassXNl6hLnrcmc-4P9mAAx7Ks0eOX1eO_Xw",
+    "issuedAt": "2023-09-07T23:02:56Z",
+    "expiresAt": "2023-09-07T23:07:56Z",
+    "headers": {
+      "kid": "1s-ZR95Z2VPEh6N4W6xg0F-OMA-iDfZN83oMD8i5A9c",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": true,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8081/realms/incident-management-system",
+      "typ": "Bearer",
+      "preferred_username": "marko123",
+      "given_name": "Marko",
+      "nonce": "76068384-7bda-44cd-8f56-815ebe162296",
+      "sid": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-incident-management-system",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ims-app",
+      "auth_time": 1694127776,
+      "scope": "openid email profile",
+      "name": "Marko Markovic",
+      "exp": "2023-09-07T23:07:56Z",
+      "session_state": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "iat": "2023-09-07T23:02:56Z",
+      "family_name": "Markovic",
+      "jti": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+      "email": "marko@mail.com"
+    },
+    "id": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+    "notBefore": null,
+    "subject": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+    "issuer": "http://localhost:8081/realms/incident-management-system",
+    "audience": [
+      "account"
+    ]
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxcy1aUjk1WjJWUEVoNk40VzZ4ZzBGLU9NQS1pRGZaTjgzb01EOGk1QTljIn0.eyJleHAiOjE2OTQxMjgwNzYsImlhdCI6MTY5NDEyNzc3NiwiYXV0aF90aW1lIjoxNjk0MTI3Nzc2LCJqdGkiOiIxNzBmNjM3NC1mODk3LTRmYjQtYjc0NS02YjNhYzYyYWQwNDgiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODEvcmVhbG1zL2luY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjM0MGM1NzEyLWVhNmItNGU4Ni1hNTUyLTBiMmFmODFlOWI0MiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imltcy1hcHAiLCJub25jZSI6Ijc2MDY4Mzg0LTdiZGEtNDRjZC04ZjU2LTgxNWViZTE2MjI5NiIsInNlc3Npb25fc3RhdGUiOiIzOTFiZTM4ZC1iMWQ3LTQxNmQtOTgxOC00ZmMyN2UwODkzNGQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJkZWZhdWx0LXJvbGVzLWluY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjM5MWJlMzhkLWIxZDctNDE2ZC05ODE4LTRmYzI3ZTA4OTM0ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya28gTWFya292aWMiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtYXJrbzEyMyIsImdpdmVuX25hbWUiOiJNYXJrbyIsImZhbWlseV9uYW1lIjoiTWFya292aWMiLCJlbWFpbCI6Im1hcmtvQG1haWwuY29tIn0.ex_5lY_abRPH0G4O_PZF66FMOShQJPzjFc2_lxrEqdslEfW8u45ghbpcrj0CAnLV0UYJfnJSbmBE2crREBJtaqGhrBeSTX0k8AJZ5dqUE1IjsP7tjzO7poHwNIn4n24J612lV36Ckzy-XE7SbRAwwYL4Vvm_E4G8ZWkQJ4bDEMaU0OfFw6nG7x0wTt84yPDJgA01Vs_AQiAk_E3r2aAF_io9hz6-5Fo52qzixjrifnjYs9d-63CQLyJGN1KrlzaPYuqeC_f_4gCaFGA52w0WrlVVY88uLFrcHCApk6iDiUFzX2Oo3ouassXNl6hLnrcmc-4P9mAAx7Ks0eOX1eO_Xw",
+    "issuedAt": "2023-09-07T23:02:56Z",
+    "expiresAt": "2023-09-07T23:07:56Z",
+    "headers": {
+      "kid": "1s-ZR95Z2VPEh6N4W6xg0F-OMA-iDfZN83oMD8i5A9c",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": true,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8081/realms/incident-management-system",
+      "typ": "Bearer",
+      "preferred_username": "marko123",
+      "given_name": "Marko",
+      "nonce": "76068384-7bda-44cd-8f56-815ebe162296",
+      "sid": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-incident-management-system",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ims-app",
+      "auth_time": 1694127776,
+      "scope": "openid email profile",
+      "name": "Marko Markovic",
+      "exp": "2023-09-07T23:07:56Z",
+      "session_state": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "iat": "2023-09-07T23:02:56Z",
+      "family_name": "Markovic",
+      "jti": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+      "email": "marko@mail.com"
+    },
+    "id": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+    "notBefore": null,
+    "subject": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+    "issuer": "http://localhost:8081/realms/incident-management-system",
+    "audience": [
+      "account"
+    ]
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxcy1aUjk1WjJWUEVoNk40VzZ4ZzBGLU9NQS1pRGZaTjgzb01EOGk1QTljIn0.eyJleHAiOjE2OTQxMjgwNzYsImlhdCI6MTY5NDEyNzc3NiwiYXV0aF90aW1lIjoxNjk0MTI3Nzc2LCJqdGkiOiIxNzBmNjM3NC1mODk3LTRmYjQtYjc0NS02YjNhYzYyYWQwNDgiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODEvcmVhbG1zL2luY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjM0MGM1NzEyLWVhNmItNGU4Ni1hNTUyLTBiMmFmODFlOWI0MiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imltcy1hcHAiLCJub25jZSI6Ijc2MDY4Mzg0LTdiZGEtNDRjZC04ZjU2LTgxNWViZTE2MjI5NiIsInNlc3Npb25fc3RhdGUiOiIzOTFiZTM4ZC1iMWQ3LTQxNmQtOTgxOC00ZmMyN2UwODkzNGQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJkZWZhdWx0LXJvbGVzLWluY2lkZW50LW1hbmFnZW1lbnQtc3lzdGVtIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjM5MWJlMzhkLWIxZDctNDE2ZC05ODE4LTRmYzI3ZTA4OTM0ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya28gTWFya292aWMiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtYXJrbzEyMyIsImdpdmVuX25hbWUiOiJNYXJrbyIsImZhbWlseV9uYW1lIjoiTWFya292aWMiLCJlbWFpbCI6Im1hcmtvQG1haWwuY29tIn0.ex_5lY_abRPH0G4O_PZF66FMOShQJPzjFc2_lxrEqdslEfW8u45ghbpcrj0CAnLV0UYJfnJSbmBE2crREBJtaqGhrBeSTX0k8AJZ5dqUE1IjsP7tjzO7poHwNIn4n24J612lV36Ckzy-XE7SbRAwwYL4Vvm_E4G8ZWkQJ4bDEMaU0OfFw6nG7x0wTt84yPDJgA01Vs_AQiAk_E3r2aAF_io9hz6-5Fo52qzixjrifnjYs9d-63CQLyJGN1KrlzaPYuqeC_f_4gCaFGA52w0WrlVVY88uLFrcHCApk6iDiUFzX2Oo3ouassXNl6hLnrcmc-4P9mAAx7Ks0eOX1eO_Xw",
+    "issuedAt": "2023-09-07T23:02:56Z",
+    "expiresAt": "2023-09-07T23:07:56Z",
+    "headers": {
+      "kid": "1s-ZR95Z2VPEh6N4W6xg0F-OMA-iDfZN83oMD8i5A9c",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": true,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8081/realms/incident-management-system",
+      "typ": "Bearer",
+      "preferred_username": "marko123",
+      "given_name": "Marko",
+      "nonce": "76068384-7bda-44cd-8f56-815ebe162296",
+      "sid": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-incident-management-system",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ims-app",
+      "auth_time": 1694127776,
+      "scope": "openid email profile",
+      "name": "Marko Markovic",
+      "exp": "2023-09-07T23:07:56Z",
+      "session_state": "391be38d-b1d7-416d-9818-4fc27e08934d",
+      "iat": "2023-09-07T23:02:56Z",
+      "family_name": "Markovic",
+      "jti": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+      "email": "marko@mail.com"
+    },
+    "id": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+    "notBefore": null,
+    "subject": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+    "issuer": "http://localhost:8081/realms/incident-management-system",
+    "audience": [
+      "account"
+    ]
+  },
+  "name": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+  "tokenAttributes": {
+    "sub": "340c5712-ea6b-4e86-a552-0b2af81e9b42",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": true,
+    "allowed-origins": [
+      "http://localhost:4200"
+    ],
+    "iss": "http://localhost:8081/realms/incident-management-system",
+    "typ": "Bearer",
+    "preferred_username": "marko123",
+    "given_name": "Marko",
+    "nonce": "76068384-7bda-44cd-8f56-815ebe162296",
+    "sid": "391be38d-b1d7-416d-9818-4fc27e08934d",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-incident-management-system",
+        "uma_authorization",
+        "USER"
+      ]
+    },
+    "azp": "ims-app",
+    "auth_time": 1694127776,
+    "scope": "openid email profile",
+    "name": "Marko Markovic",
+    "exp": "2023-09-07T23:07:56Z",
+    "session_state": "391be38d-b1d7-416d-9818-4fc27e08934d",
+    "iat": "2023-09-07T23:02:56Z",
+    "family_name": "Markovic",
+    "jti": "170f6374-f897-4fb4-b745-6b3ac62ad048",
+    "email": "marko@mail.com"
+  }
+}

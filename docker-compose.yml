@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15.4
+    restart: always
+    environment:
+      - POSTGRES_DB=incidentservice
+      - POSTGRES_USER=incidentservice-rw
+      - POSTGRES_PASSWORD=incidentservice-rw
+    ports:
+      - '5430:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
+    driver: local
